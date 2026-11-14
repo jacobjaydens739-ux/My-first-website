@@ -1,35 +1,90 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-<title>My First Website</title>
+<title>Jacob - My Website</title>
 <style>
 body {
   background-color: #e0f2ff;
   font-family: Arial;
   text-align: center;
-  padding-top: 40px;
+  padding: 20px;
+  margin: 0;
 }
-h1 {
-  color: #1a56db;
-  font-size: 45px;
-}
-p {
-  color: #333333;
-  font-size: 22px;
-}
-  img {
-  width: 200px;
-  height: 200px;
+img {
+  width: 180px;
+  height: 180px;
   object-fit: cover;
   border-radius: 50%;
   border: 5px solid white;
-
+}
+h1 {
+  color: #1a56db;
+  font-size: 40px;
+  margin: 10px 0 5px 0;
+}
+p {
+  color: #333333;
+  font-size: 18px;
+}
+.buttons {
+  margin: 20px 0;
+}
+.buttons a {
+  display: inline-block;
+  background-color: #1a56db;
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  margin: 5px;
+  border-radius: 25px;
+  font-weight: bold;
+}
+.box {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  border-radius: 15px;
+  text-align: left;
+}
+.box h2 {
+  color: #1a56db;
+  text-align: center;
 }
 </style>
 </head>
 <body>
-<img src="IMG_20260819_230151_620.jpg">
+
+<img src="me.jpg">
 <h1>Hello, I'm Jacob!</h1>
 <p>This is my first website. I'm learning to code.</p>
+
+<div class="buttons">
+  <a href="#projects">My Projects</a>
+  <a href="#about">About Me</a>
+  <a href="#contact">Contact Me</a>
+</div>
+
+<div class="box" id="projects">
+  <h2>My Projects</h2>
+  <p>✅ My First Website - Made with HTML & CSS</p>
+  <p>✅ Learning GitHub - My code is on GitHub</p>
+  <p>🔜 Coming soon - My second website!</p>
+</div>
+
+<div class="box" id="about">
+  <h2>About Me</h2>
+  <p>Hi! I'm Jacob from Kapsabet, Kenya. I'm 16 years old and I'm learning how to build websites. I want to become a software developer.</p>
+  <p><b>Skills:</b> HTML, CSS, GitHub</p>
+</div>
+
+<div class="box" id="contact">
+  <h2>Contact Me</h2>
+  <p>📍 Kapsabet, Kenya</p>
+  <p>💻 GitHub: jacobjaydens739-ux</p>
+  <p>Send me a message on GitHub!</p>
+</div>
+
 </body>
 </html>
